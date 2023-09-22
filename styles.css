@@ -1,2 +1,31 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+.holder {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.item {
+  display: flex;
+  flex-direction: column; 
+  align-items: space-evenly; 
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+.three {
+  background-color: green;
+  color: black;
+}
 
-/* Your CSS Code here. */
+.one {
+  background-color: red;
+  color: black;
+}
+
+.two {
+  background-color: blue;
+  color: black;
+}
